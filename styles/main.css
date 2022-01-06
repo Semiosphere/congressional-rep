@@ -1,1 +1,76 @@
-#fishtank {}
+
+.main-content {
+    display: flex;
+}
+h1 {
+    text-align:center;
+    border: 5px grey
+    width: 300px;
+    height: 150px;
+    background-color: grey;
+}
+.owned-fish-box {
+    border: dimgray;
+    width: 350px;
+    height: 500px;
+    background-color: grey;
+}
+.locations-box {
+    border: dimgray;
+    width: 350px;
+    height: 500px;
+    background-color: grey;
+}
+.tank-tips-box {
+    border: dimgray;
+    width: 350px;
+    height: 500px;
+    background-color: grey;
+}
+h2 {
+    text-align: center;
+}
+.owned-container {
+    
+    width: 350px;
+    height: 100px;
+    
+    align-content:center;
+}
+img {
+    max-width: 50px;
+    max-height: 50px;
+}
+.owned-fish-info {
+    text-align: justify;
+}
+.tips-container {
+    background-color: rgb(46, 80, 100);
+    padding: 10px;
+    text-align: left;
+    color: white;
+}
+.tips-box {
+    background-color: rgb(187, 195, 199);
+    padding: 10px;
+    text-align: left;
+    color: rgb(46, 80, 100);
+}
+.locations-container {
+    background-color: rgb(46, 80, 100);
+    padding: 10px;
+    text-align: left;
+    color: white;
+}
+.location1 {
+    background-color: rgb(187, 195, 199);
+    padding: 10px;
+    text-align: left;
+    color: rgb(46, 80, 100);
+}
+.location2 {
+    background-color: rgb(187, 195, 199);
+    padding: 10px;
+    text-align: left;
+    color: rgb(46, 80, 100);
+}
