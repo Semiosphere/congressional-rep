@@ -5,17 +5,25 @@ html {
     background-repeat: no-repeat;
 }
 
+
 header {
-    border: solid rgb(5, 30, 39);
-    color: seashell;
+    width: 100%;
+    background-color: rgb(5, 30, 39);
+
 }
 .main-content {
     flex-wrap: wrap;
 }
-img {
-    width: 150px;
-   
+
+.headImg {
+    width: 70%;
+    height: 70%;
+    padding: 15px;
 }
+.fish {
+    width: 150px; 
+}
+
 
 aside {
     display: flex;
