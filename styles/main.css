@@ -1,8 +1,9 @@
 html {
-    background-color: rgb(227, 243, 248);
-    background-image: url(https://img.search.brave.com/GnjJhbuvbCHXFcLcNvwG-hnKaL6lJoxxbU144lcV3tA/fit/1200/1200/ce/1/aHR0cDovL3dhbGx1/cC5uZXQvd3AtY29u/dGVudC91cGxvYWRz/LzIwMTYvMDEvMjU5/MzE0LW5hdHVyZS1s/YW5kc2NhcGUtc2Vh/LWJvYXQtcm9jay1o/dWdlLXRyZWVzLWxp/bWVzdG9uZS1UaGFp/bGFuZC10cm9waWNh/bC5qcGc);
+   
+    background-image: url(https://www.ephotozine.com/articles/check-out-these-18-amazing-underwater-shots-waiting-for-your-votes--29019/images/Underwater_Sunshine.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+ 
 }
 
 
@@ -11,70 +12,72 @@ header {
     background-color: rgb(5, 30, 39);
 
 }
-.main-content {
-    flex-wrap: wrap;
-}
 
 .headImg {
     width: 70%;
     height: 70%;
     padding: 15px;
 }
+
 .fish {
     width: 150px; 
 }
 
-
-aside {
+.fish-and-locations-box {
     display: flex;
-
+    flex-direction: column;
+    align-content: space-around;
 }
-main {
+
+.owned-fish-container {
     display: flex;
+    background-color: rgba(5, 30, 39, 0.795);
     justify-content: space-around;
+    margin-bottom: 10%;
+    
 }
-.owned-fish-box {
-    background-color: rgb(29, 60, 70);
-    color: seashell;
-    padding: 10px;
-}
-.locations-box {
-    background-color: rgb(29, 60, 70);
-    color: seashell;
-    padding: 10px;
-}
-aside {
-    background-color: rgb(29, 60, 70);
-    color: seashell;
-    padding: 10px;
-}
+
 .owned-container {
     display: flex;
-    background-color: rgb(5, 30, 39);
     padding: 10px;
 }
+
 .owned-container2 {
     display: flex;
     padding: 10px;
 }
+
 .owned-container3 {
     display: flex;
-    background-color: rgb(5, 30, 39);
     padding: 10px;
 }
-.tips-box {
-    background-color: rgb(5, 30, 39);
-    padding: 10px;
-}
+
 .locations-text {
     background-color: rgb(5, 30, 39);
     padding: 10px;
 }
-.tank-care {
-    background-color: rgb(5, 30, 39);
-    padding: 10px;
+
+.tips-box {
+    display: flex;
+    color: seashell;
+    justify-content: space-around;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 1.5em;
+    margin-bottom: 10%;
 }
-.temperature {
-    background-color: rgb(5, 30, 39);
-    padding: 10px;
+
+.owned-fish-box {
+    font-family: 'Libre Baskerville', serif;
+    color: seashell;
+}
+
+.harvest-container {
+    display: flex;
+    justify-content:space-evenly;
+    background-color: rgba(255, 245, 238, 0.856);
+    padding: 15px;
+}
+.earth {
+    max-width: 30%;
+    height: auto;
 }
