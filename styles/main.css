@@ -1,76 +1,72 @@
+html {
+    background-color: rgb(227, 243, 248);
+    background-image: url(https://img.search.brave.com/GnjJhbuvbCHXFcLcNvwG-hnKaL6lJoxxbU144lcV3tA/fit/1200/1200/ce/1/aHR0cDovL3dhbGx1/cC5uZXQvd3AtY29u/dGVudC91cGxvYWRz/LzIwMTYvMDEvMjU5/MzE0LW5hdHVyZS1s/YW5kc2NhcGUtc2Vh/LWJvYXQtcm9jay1o/dWdlLXRyZWVzLWxp/bWVzdG9uZS1UaGFp/bGFuZC10cm9waWNh/bC5qcGc);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 
+header {
+    border: solid rgb(5, 30, 39);
+    color: seashell;
+}
 .main-content {
-    display: flex;
-}
-h1 {
-    text-align:center;
-    border: 5px grey
-    width: 300px;
-    height: 150px;
-    background-color: grey;
-}
-.owned-fish-box {
-    border: dimgray;
-    width: 350px;
-    height: 500px;
-    background-color: grey;
-}
-.locations-box {
-    border: dimgray;
-    width: 350px;
-    height: 500px;
-    background-color: grey;
-}
-.tank-tips-box {
-    border: dimgray;
-    width: 350px;
-    height: 500px;
-    background-color: grey;
-}
-h2 {
-    text-align: center;
-}
-.owned-container {
-    
-    width: 350px;
-    height: 100px;
-    
-    align-content:center;
+    flex-wrap: wrap;
 }
 img {
-    max-width: 50px;
-    max-height: 50px;
+    width: 150px;
+   
 }
-.owned-fish-info {
-    text-align: justify;
+
+aside {
+    display: flex;
+
 }
-.tips-container {
-    background-color: rgb(46, 80, 100);
+main {
+    display: flex;
+    justify-content: space-around;
+}
+.owned-fish-box {
+    background-color: rgb(29, 60, 70);
+    color: seashell;
     padding: 10px;
-    text-align: left;
-    color: white;
+}
+.locations-box {
+    background-color: rgb(29, 60, 70);
+    color: seashell;
+    padding: 10px;
+}
+aside {
+    background-color: rgb(29, 60, 70);
+    color: seashell;
+    padding: 10px;
+}
+.owned-container {
+    display: flex;
+    background-color: rgb(5, 30, 39);
+    padding: 10px;
+}
+.owned-container2 {
+    display: flex;
+    padding: 10px;
+}
+.owned-container3 {
+    display: flex;
+    background-color: rgb(5, 30, 39);
+    padding: 10px;
 }
 .tips-box {
-    background-color: rgb(187, 195, 199);
+    background-color: rgb(5, 30, 39);
     padding: 10px;
-    text-align: left;
-    color: rgb(46, 80, 100);
 }
-.locations-container {
-    background-color: rgb(46, 80, 100);
+.locations-text {
+    background-color: rgb(5, 30, 39);
     padding: 10px;
-    text-align: left;
-    color: white;
 }
-.location1 {
-    background-color: rgb(187, 195, 199);
+.tank-care {
+    background-color: rgb(5, 30, 39);
     padding: 10px;
-    text-align: left;
-    color: rgb(46, 80, 100);
 }
-.location2 {
-    background-color: rgb(187, 195, 199);
+.temperature {
+    background-color: rgb(5, 30, 39);
     padding: 10px;
-    text-align: left;
-    color: rgb(46, 80, 100);
 }
